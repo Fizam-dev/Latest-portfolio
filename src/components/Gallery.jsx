@@ -1,19 +1,20 @@
 import React from "react";
 
 export function Gallery() {
+    const base = import.meta.env.BASE_URL;
     const images = [
-        { src: "/images/11.jpg", alt: "Gallery Image 1" },
-        { src: "/images/12.jpg", alt: "Gallery Image 2" },
-        { src: "/images/13.jpg", alt: "Gallery Image 3" },
-        { src: "/images/14.jpg", alt: "Gallery Image 4" },
-        { src: "/images/16.jpg", alt: "Gallery Image 5" },
-        { src: "/images/18.jpg", alt: "Gallery Image 6" },
-        { src: "/images/34.jpeg", alt: "Gallery Image 7" },
-        { src: "/images/5.jpg", alt: "Gallery Image 8" },
-        { src: "/images/6.jpg", alt: "Gallery Image 9" },
-        { src: "/images/IMG_20250926_010322_106.jpg", alt: "Gallery Image 10" },
-        { src: "/images/IMG_20250926_191005_873 (1).jpg", alt: "Gallery Image 11" },
-        { src: "/images/Untitled5_20250925011644.jpg", alt: "Gallery Image 12" },
+        { src: `${base}images/11.jpg`, alt: "Gallery Image 1" },
+        { src: `${base}images/12.jpg`, alt: "Gallery Image 2" },
+        { src: `${base}images/13.jpg`, alt: "Gallery Image 3" },
+        { src: `${base}images/14.jpg`, alt: "Gallery Image 4" },
+        { src: `${base}images/16.jpg`, alt: "Gallery Image 5" },
+        { src: `${base}images/18.jpg`, alt: "Gallery Image 6" },
+        { src: `${base}images/34.jpeg`, alt: "Gallery Image 7" },
+        { src: `${base}images/5.jpg`, alt: "Gallery Image 8" },
+        { src: `${base}images/6.jpg`, alt: "Gallery Image 9" },
+        { src: `${base}images/IMG_20250926_010322_106.jpg`, alt: "Gallery Image 10" },
+        { src: `${base}images/IMG_20250926_191005_873 (1).jpg`, alt: "Gallery Image 11" },
+        { src: `${base}images/Untitled5_20250925011644.jpg`, alt: "Gallery Image 12" },
     ];
 
     return (

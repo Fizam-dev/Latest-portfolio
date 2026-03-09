@@ -1,6 +1,7 @@
 {
   "name": "temp-app",
   "private": true,
+  "homepage": "https://fizam-dev.github.io/Latest-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
